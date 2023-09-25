@@ -1,0 +1,209 @@
+body {
+  font-family: "Montserrat" sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* heder */
+.heder {
+}
+
+.heder-navigation {
+}
+
+.heder-logo {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.logo-italic {
+  font-style: italic;
+}
+
+.heder-logo-img {
+}
+
+.heder-navigation-list {
+}
+
+.heder-navigation-item {
+}
+
+.heder-menu-link {
+  color: #111;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.heder-menu-link:hover,
+.heder-menu-link:focus {
+  color: #fd9222;
+}
+
+.adress-list {
+}
+
+.adress-item {
+}
+
+.adress-link {
+}
+
+/*HERO*/
+.hero {
+  background-color: rgba(17, 17, 17, 0.6);
+}
+.hero-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03eb;
+}
+.hero-btn {
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  background-color: #fd9222;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.hero-btn-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid #fff;
+}
+
+.hero-btn-link:focus,
+.hero-btn-link:hover {
+  color: #fd9222;
+  border-color: #fd9222;
+}
+
+.hero-btn-down {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+.hero-btn-down:focus,
+.hero-btn-down:hover {
+  color: #fd9222;
+}
+
+/* features */
+
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-title {
+}
+.features-text {
+}
+
+/* taste */
+
+.taste {
+}
+
+.taste-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.taste-title span {
+  color: #fd9222;
+}
+
+.taste-list {
+}
+
+.taste-img {
+}
+
+.taste-list-item {
+}
+
+.taste-subtitle {
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+/* PRODUCTS */
+.products {
+}
+.products-title {
+}
+.products-list {
+}
+.products-list-item {
+}
+.products-img {
+}
+.products-subtitle {
+}
+.products-text {
+}
+.products-btn {
+}
+
+/* FOOTER */
+.footer {
+}
+.footer-text {
+}
+.footer-subtitle {
+}
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-adress {
+}
+.footer-adress-list {
+}
+.footer-adress-item {
+}
+.footer-navigation {
+}
+.footer-navigation-list {
+}
+.footer-navigation-item {
+}
