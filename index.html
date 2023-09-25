@@ -10,24 +10,55 @@
     <header class="heder">
       <nav class="heder-navigation">
         <a class="heder-logo" href="index.html"
-          ><span class="logo-italic" >SIMPLY</span> CHOCOLATE
-          <img class="heder-logo-img"
+          ><span class="logo-italic">SIMPLY</span> CHOCOLATE
+          <img
+            class="heder-logo-img"
             src="./images/chocolate.svg"
             alt="chocolate"
             width="24"
             height="24"
         /></a>
         <ul class="heder-navigation-list">
-          <li class="heder-navigation-item"><a class="heder-menu-link" href="">Home</a></li>
-          <li class="heder-navigation-item"><a class="heder-menu-link" href="">How it’s made?</a></li>
-          <li class="heder-navigation-item"><a class="heder-menu-link" href="">Chocolate is loved</a></li>
+          <li class="heder-navigation-item">
+            <a class="heder-menu-link" href="#">Home</a>
+          </li>
+          <li class="heder-navigation-item">
+            <a class="heder-menu-link" href="#made">How it’s made?</a>
+          </li>
+          <li class="heder-navigation-item">
+            <a class="heder-menu-link" href="#loved">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
       <address>
         <ul class="adress-list">
-          <li class="adress-item"><a class="adress-link" href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-          <li class="adress-item"><a class="adress-link" href="" target="_blank" rel="noopener noreferrer">inst</a></li>
-          <li class="adress-item"><a class="adress-link" href="" target="_blank" rel="noopener noreferrer">twit</a></li>
+          <li class="adress-item">
+            <a
+              class="adress-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              >fb</a
+            >
+          </li>
+          <li class="adress-item">
+            <a
+              class="adress-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              >inst</a
+            >
+          </li>
+          <li class="adress-item">
+            <a
+              class="adress-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              >twit</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -37,12 +68,14 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button class="hero-btn" type="button" class="hero-botton">Buy now</button>
-        <a class="hero-btn-link" href="">How it’s made</a>
-        <a class="hero-btn-down" href="">scroll down</a>
+        <button class="hero-btn" type="button" class="hero-botton">
+          Buy now
+        </button>
+        <a class="hero-btn-link" href="#made">How it’s made</a>
+        <a class="hero-btn-down" href="#footer">scroll down</a>
       </section>
       <section class="features">
-        <h2 hidden>Features</h2>
+        <h2 class="visually-hidden">Features</h2>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="features-title">Unsurpassed taste</h3>
@@ -75,7 +108,7 @@
         </ul>
       </section>
       <section class="taste">
-        <h2 class="taste-title">
+        <h2 class="taste-title section-title">
           It all adds up to one exceptional <span>taste</span> sensation
         </h2>
         <ul class="taste-list">
@@ -151,41 +184,44 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>How it’s made?</h2>
+      <section class="made" id="made">
+        <h2 class="made-title section-title">How it’s <span>made</span>?</h2>
         <img
+          class="made-img"
           src="./images/liquid-chocolate.jpg"
           alt="liquid chocolate"
           width="600"
           height="400"
         />
-        <h3>
+        <h3 class="made-subtitle">
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
-        <ul>
-          <li>
-            <p>
+        <ul class="made-list">
+          <li class="made-item">
+            <p class="made-item-text">
               Heat the milk in a saucepan without bringing it to a boil. Add
               sugar and cocoa powder.
             </p>
           </li>
-          <li>
-            <p>
+          <li class="made-item">
+            <p class="made-item-text">
               At the same time, prepare a water bath. Melt the butter on it.
             </p>
           </li>
-          <li>
-            <p>
+          <li class="made-item">
+            <p class="made-item-text">
               "Mix" the milk mixture and already liquid butter. Mix thoroughly
               with a silicone spatula so that the mass becomes uniform and
               silky.
             </p>
           </li>
-          <li>
-            <p>Heat the mixture over low heat, letting it barely boil.</p>
+          <li class="made-item">
+            <p class="made-item-text">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
           </li>
-          <li>
-            <p>
+          <li class="made-item">
+            <p class="made-item-text">
               Pour the chocolate into special containers (can be replaced with
               ice molds). Allow to cool and harden.
             </p>
@@ -193,7 +229,7 @@
         </ul>
       </section>
       <section class="products">
-        <h2 class="products-title">Our products</h2>
+        <h2 class="products-title section-title">Our <span>products</span></h2>
         <ul class="products-list">
           <li class="products-list-item">
             <img
@@ -294,88 +330,96 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Top sellers</h2>
-        <ul>
-          <li>
+      <section class="top-sellers">
+        <h2 class="section-title"><span>Top</span> sellers</h2>
+        <ul class="top-sellers-list">
+          <li class="top-sellers-item">
             <img
+              class="top-sellers-img"
               src="./images/section01-1.jpg"
               alt="CHOCOLATE WITH NUTS"
               width="368"
               height="464"
             />
-            <h3>CHOCOLATE WITH NUTS</h3>
+            <h3 class="top-sellers-subtitle">CHOCOLATE WITH NUTS</h3>
           </li>
-          <li>
+          <li class="top-sellers-item">
             <img
+              class="top-sellers-img"
               src="./images/section01-02.jpg"
               alt="CHOCOLATE WITH FRUITS"
               width="368"
               height="464"
             />
-            <h3>CHOCOLATE WITH FRUITS</h3>
+            <h3 class="top-sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
           </li>
-          <li>
+          <li class="top-sellers-item">
             <img
+              class="top-sellers-img"
               src="./images/section01-3.jpg"
               alt="DARK CHOCOLATE"
               width="368"
               height="464"
             />
-            <h3>DARK CHOCOLATE</h3>
+            <h3 class="top-sellers-subtitle">DARK CHOCOLATE</h3>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Chocolate is loved</h2>
-        <ul>
-          <li>
+      <section class="loved" id="loved">
+        <h2 class="section-title"><span>Chocolate</span> is loved</h2>
+        <ul class="mane-list">
+          <li class="name-item">
             <img
+              class="name-img"
               src="./images/img-name-1.jpg"
               alt="Victoria Dobrzhansk"
               width="80"
               height="80"
             />
-            <h3>Victoria Dobrzhanska</h3>
-            <p>
+            <h3 class="name">Victoria Dobrzhanska</h3>
+            <p class="name-text">
               I love this chocolate bar. Perfect combination of light crispy
               wafer, covered in a thin layer chocolate.
             </p>
           </li>
-          <li>
+          <li class="name-item">
             <img
+              class="name-img"
               src="./images/img-name-2.jpg"
               alt="Nazar Babenko"
               width="80"
               height="80"
             />
-            <h3>Nazar Babenko</h3>
-            <p>
+            <h3 class="name">Nazar Babenko</h3>
+            <p class="name-text">
               This chocolate confection is a delight! A delight! The wafer is
               light and crisp, the hazelnut cream is smooth, and the chocolate
               is good.
             </p>
           </li>
-          <li>
+          <li class="name-item">
             <img
+              class="name-img"
               src="./images/img-name-3.jpg"
               alt="Olena Kampusch"
               width="80"
               height="80"
             />
-            <h3>Olena Kampusch</h3>
-            <p>
+            <h3 class="name">Olena Kampusch</h3>
+            <p class="name-text">
               Chocolate is a family favourite treat. Love the delicious smooth
               chocolate and the creaminess inside. The wafer is soft but
               crunchy.
             </p>
           </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button class="love-btn" type="button">Leave a review</button>
       </section>
     </main>
-    <footer class="footer">
-      <p class="footer-text"><span>Chocolate</span> a delicious cure for a bad day</p>
+    <footer class="footer" id="footer">
+      <p class="footer-text">
+        <span>Chocolate</span> a delicious cure for a bad day
+      </p>
       <p class="footer-subtitle">Social networks</p>
       <ul class="footer-soc-list">
         <li class="footer-soc-item">
@@ -392,18 +436,30 @@
       <address class="footer-adress">
         <ul class="footer-adress-list">
           <li class="footer-adress-item">
-            <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+            <a class="fotter-adress-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
           </li>
           <li class="footer-adress-item">
-            <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+            <a class="fotter-adress-link" href="mailto:simplychoc@gmail.com"
+              >simplychoc@gmail.com</a
+            >
           </li>
         </ul>
       </address>
       <nav class="footer-navigation">
         <ul class="footer-navigation-list">
-          <li class="footer-navigation-item><a href="">Home</a></li>
-          <li class="footer-navigation-item><a href="">How it’s made?</a></li>
-          <li class="footer-navigation-item><a href="">Chocolate is loved</a></li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link" href="#">Home</a>
+          </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link" href="#made">How it’s made?</a>
+          </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link" href="#loved"
+              >Chocolate is loved</a
+            >
+          </li>
         </ul>
       </nav>
     </footer>

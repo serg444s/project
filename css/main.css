@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat" sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 ul {
@@ -8,6 +8,20 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.section-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03;
+  text-transform: uppercase;
+}
+
+.section-title span {
+  color: #fd9222;
 }
 
 /* heder */
@@ -118,15 +132,39 @@ a {
 
 /* features */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .features {
+  background-color: #1e1823;
 }
 .features-list {
 }
+
 .features-item {
 }
+
 .features-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
 }
 .features-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 
 /* taste */
@@ -135,17 +173,6 @@ a {
 }
 
 .taste-title {
-  color: #111;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17;
-  letter-spacing: -0.72px;
-  text-transform: uppercase;
-}
-
-.taste-title span {
-  color: #fd9222;
 }
 
 .taste-list {
@@ -162,8 +189,39 @@ a {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02;
   text-transform: uppercase;
+}
+
+/*    made    */
+
+.made {
+}
+
+.made-title {
+}
+
+.made-img {
+}
+
+.made-subtitle {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.made-list {
+}
+
+.made-item {
+}
+
+.made-item-text {
+  color: #111;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02;
 }
 
 /* PRODUCTS */
@@ -171,39 +229,181 @@ a {
 }
 .products-title {
 }
+
 .products-list {
 }
+
 .products-list-item {
 }
+
 .products-img {
 }
 .products-subtitle {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
+
 .products-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
 }
+
 .products-btn {
+  color: #111;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/*   top-sellers   */
+
+.top-sellers {
+}
+
+.top-sellers-list {
+}
+
+.top-sellers-item {
+}
+
+.top-sellers-img {
+}
+
+.top-sellers-subtitle {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/*  loved */
+
+.loved {
+}
+
+.mane-list {
+}
+
+.name-item {
+}
+
+.name-img {
+}
+
+.name {
+  color: #111;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.name-text {
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.love-btn {
+  color: #111;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.love-btn:hover,
+.love-btn:focus {
+  color: #fff;
+  background-color: #fd9222;
 }
 
 /* FOOTER */
 .footer {
+  background-color: #1e1823;
 }
+
 .footer-text {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
 }
+
+.footer-text span {
+  color: #fd9222;
+}
+
 .footer-subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
 }
+
 .footer-soc-list {
 }
+
 .footer-soc-item {
 }
+
 .footer-adress {
+  font-style: normal;
 }
+
 .footer-adress-list {
 }
+
 .footer-adress-item {
 }
+
+.fotter-adress-link {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.fotter-adress-link:hover,
+.fotter-adress-link:focus {
+  color: #fd9222;
+}
+
 .footer-navigation {
 }
+
 .footer-navigation-list {
 }
+
 .footer-navigation-item {
+}
+
+.footer-navigation-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+  color: #fd9222;
 }
